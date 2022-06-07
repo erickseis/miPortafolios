@@ -132,13 +132,14 @@ input#menu-hamburguesa ~ ul{
     right: 1.5rem;
     color: var(--cyan); 
     font-size: 18px;
+    
     top: 4rem;
 }
-.experiencia>h2>span{
+.experiencia>p>span{
     color: var(--cyan);
             
             }  
-.experiencia>h2{
+.experiencia>p{
     color: white;
     right: 9.5rem;
       
