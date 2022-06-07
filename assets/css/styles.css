@@ -218,41 +218,61 @@ input#menu-hamburguesa ~ ul{
 }
 
 
+
+.parent{
+    border: 2px beige dotted;
+    display: block;
+    position: relative;
+}
+
+
 .acercademi{
-      position: relative;
+      width: 100%;
+      height: 100%;
+      background-color: aqua;
+      margin-left: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
       
-    }
-h5{
+}
+
+.acercademi>h5{
+    color: var(--cyan);
+    margin-left: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
     position: absolute;
-    left: 46%;
-    top: -9rem;
-    margin-left: -6rem;
-    color: var(--cyan);
+    top: -8rem;
     font-size: 32px;
+    
 }
+  
 
 .acercademi>p{
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     position: absolute;
-    left: 5%;
+    text-align: center;
+    width: 380px;
+    margin-right: 2rem;
+    letter-spacing: 1.5px;
+    top: -3.5rem;
+
+}
+
+
+/*
+left: 40rem;
     margin-right: 1rem;
     top: -5rem;
     font-size: 16px;
     letter-spacing: 1.5px;
-}
 
-
-
-
-
-   
+   */
 @media screen and ( min-width:780px ) {
 
     label{
