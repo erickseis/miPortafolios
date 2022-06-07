@@ -130,7 +130,7 @@ input#menu-hamburguesa ~ ul{
     color: var(--cyan);
     display: flex;
     font-size: 18px;
-    position: relative;
+    position: absolute;
     right: 6rem;
     top: -1rem;
      }
@@ -139,7 +139,7 @@ input#menu-hamburguesa ~ ul{
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    position: relative;
+    position: absolute;
     right: 6rem;
     top: -2rem;
    }
@@ -189,7 +189,7 @@ input#menu-hamburguesa ~ ul{
     }
 .icons{
     background-color: var(--gray);
-    position: relative;
+    position: absolute;
     border: 2px;
     width: 80px;
     height: 40px;
