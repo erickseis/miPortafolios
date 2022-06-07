@@ -266,17 +266,44 @@ input#menu-hamburguesa ~ ul{
     position: relative;
 }
 
-.descendiente1>h6{
-    padding-top: 10.5rem;
+
+
+.seccion3{
+    padding: 1rem;
+  
+}
+
+.scroll-horizontal{
     display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.servicios-card{
+    height: 300px;
+    min-width: 320px;
+    background-color: var(--gray);
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+.seccion3>h6{
+padding-bottom: 2rem;
     justify-content: center;
+    text-align: center;
     font-size: 32px;
     color: var(--cyan);
 }
-
-
-
-
+.servicios-card>h7{
+    
+    color: var(--black);
+}
+.servicios-card>p{
+    color: var(--black);
+}
 
 
 
