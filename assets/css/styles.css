@@ -157,7 +157,7 @@ input#menu-hamburguesa ~ ul{
         align-items: center;
         border-radius: 50%;
         position: absolute;
-        top: 8rem;
+        top: 9rem;
         z-index: 16;
         
     }
@@ -228,7 +228,7 @@ h5{
     align-items: center;
     text-align: justify;
     position: absolute;
-    left: 50%;
+    left: 46%;
     top: -9rem;
     margin-left: -6rem;
     color: var(--cyan);
