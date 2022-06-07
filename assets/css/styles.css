@@ -79,6 +79,7 @@ input#menu-hamburguesa ~ ul{
     width: 180px;
     z-index: 4;
     top: 0.5rem;
+    left: 1.5rem;
     
     }
  .imagen-e>h4{
@@ -93,13 +94,13 @@ input#menu-hamburguesa ~ ul{
         z-index: 3;
         border-radius: 80%;
         top: -14.8rem;
-        left: -2.5rem;
+        left: -.5rem;
     }
 
  .header-presentacion{
     position: relative;
     z-index: 23;
-    left: 2rem;
+    left: 4rem;
     top: -2rem;
                    }   
                  
@@ -130,7 +131,7 @@ input#menu-hamburguesa ~ ul{
     position: relative;
     display: flex;
     justify-content: center;
-    right: 7rem;
+    right: 5rem;
     color: var(--cyan); 
     font-size: 18px;
     top: -1rem;
@@ -181,7 +182,7 @@ input#menu-hamburguesa ~ ul{
     align-items: center;
     border-radius: 10px;
     position: absolute;
-    margin-left: -12rem;
+    margin-left: -10rem;
     z-index: 13;
     top: 12rem;
  
@@ -204,15 +205,15 @@ input#menu-hamburguesa ~ ul{
 }
 .google-icon{
     top: 12.5rem;
-    left: -10rem;
+    left: -8rem;
 }
 .amazon-icon{
     top: 12.5rem;
-    left: -4rem;
+    left: -2rem;
 }
 .spotify-icon{
     top: 12.5rem;
-    left: 2rem;
+    left: 4rem;
 }
 
 
