@@ -79,6 +79,7 @@ input#menu-hamburguesa ~ ul{
     width: 180px;
     z-index: 4;
     top: 0.5rem;
+    
     }
  .imagen-e>h4{
         display: flex;
@@ -126,14 +127,13 @@ input#menu-hamburguesa ~ ul{
 
   
 .experiencia{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
-    right: 1.5rem;
+    right: 7rem;
     color: var(--cyan); 
     font-size: 18px;
-    
-    top: 4rem;
+    top: -1rem;
 }
 .experiencia>p>span{
     color: var(--cyan);
@@ -141,7 +141,6 @@ input#menu-hamburguesa ~ ul{
             }  
 .experiencia>p{
     color: white;
-    right: 9.5rem;
       
           }
 
@@ -161,13 +160,13 @@ input#menu-hamburguesa ~ ul{
         
     }
     .linkedin-icon{
-        margin-left: 12rem;
+        margin-left: 9rem;
     }
     .ins-icon{
-        margin-left: 17rem;
+        margin-left: 14.5rem;
     }
     .twitter-icon{
-        margin-left: 22rem;
+        margin-left: 20rem;
     }
 
 
@@ -182,7 +181,7 @@ input#menu-hamburguesa ~ ul{
     align-items: center;
     border-radius: 10px;
     position: absolute;
-    margin-left: -8.5rem;
+    margin-left: -12rem;
     z-index: 13;
     top: 12rem;
  
@@ -205,15 +204,15 @@ input#menu-hamburguesa ~ ul{
 }
 .google-icon{
     top: 12.5rem;
-    left: -7rem;
+    left: -10rem;
 }
 .amazon-icon{
     top: 12.5rem;
-    left: -0.5rem;
+    left: -4rem;
 }
 .spotify-icon{
     top: 12.5rem;
-    left: 6rem;
+    left: 2rem;
 }
 
 
