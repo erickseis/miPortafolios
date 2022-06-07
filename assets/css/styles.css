@@ -255,8 +255,8 @@ input#menu-hamburguesa ~ ul{
     position: absolute;
     text-align: center;
     width: 380px;
-    margin-right: 2.5rem;
-    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-left: 1.5rem;
     letter-spacing: 1.5px;
     top: -3.5rem;
 
