@@ -329,8 +329,75 @@ input#menu-hamburguesa ~ ul{
     font-size: 16px;
 }
 
+.habilidad{
+    display: flex;
+    flex-direction: column;
+}
 
 
+
+.seccion4>.seccion-habilidades>.text-center{
+    color: var(--cyan);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+}
+progress{
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--white);
+    height: 1.25rem;
+    color: var(--white);
+    
+}
+
+label>p{
+    color: var(--cyan);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6rem;
+    
+}
+label>p2{
+    color: var(--cyan);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 3rem;
+    
+}
+
+label>p4{
+    color: var(--cyan);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 9rem;
+    
+}
+
+
+
+progress::-webkit-progress-bar{
+    background-color: var(--white);
+    height: 1.25rem;
+    width: 100%;
+    border-radius: 1rem;}
+
+progress::-webkit-progress-value{
+    background-color: var(--cyan);
+    border-radius: 1rem;
+}
+progress::-moz-progress-bar{
+    background-color: var(--cyan);
+    border-radius: 1rem;
+}
 
 
 
