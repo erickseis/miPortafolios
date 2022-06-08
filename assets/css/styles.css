@@ -291,7 +291,8 @@ input#menu-hamburguesa ~ ul{
 }
 
 .seccion3>h6{
-padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     justify-content: center;
     text-align: center;
     font-size: 32px;
