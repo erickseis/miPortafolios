@@ -248,13 +248,12 @@ input#menu-hamburguesa ~ ul{
 }
   
 
-.acercademi>p{
+.acercademi>p{ /*Ojo*/
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     text-align: center;
-    width: 380px;
     margin-right: 3rem;
     margin-left: 1.5rem;
     letter-spacing: 1.5px;
@@ -270,6 +269,8 @@ input#menu-hamburguesa ~ ul{
 
 .seccion3{
     padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   
 }
 
@@ -329,6 +330,14 @@ input#menu-hamburguesa ~ ul{
     font-size: 16px;
 }
 
+
+
+
+.seccion4{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 .habilidad{
     display: flex;
     flex-direction: column;
@@ -363,7 +372,7 @@ label>p{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 6rem;
+    padding-left: 4rem;
     
 }
 label>p2{
@@ -372,7 +381,7 @@ label>p2{
     display: flex;
     align-items: center;
     justify-content: right;
-    padding-right: 3rem;
+    padding-right: 1rem;
     
 }
 
@@ -382,7 +391,7 @@ label>p4{
     display: flex;
     align-items: center;
     justify-content: right;
-    padding-right: 9rem;
+    padding-right: 5rem;
     
 }
 
@@ -408,6 +417,27 @@ progress::-moz-progress-bar{
 
 
 
+.seccion4>h1{
+    color: var(--cyan);
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.mi-portafolio{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow-x: scroll;
+    height: 250px;
+    
+    
+}
+.imagenes{
+    background-size: contain;
+}
 
 
 
@@ -415,7 +445,7 @@ progress::-moz-progress-bar{
 
 @media screen and ( min-width:780px ) {
 
-    label{
+   nav label{
         display: none;
     }
 
