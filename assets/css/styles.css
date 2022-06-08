@@ -285,9 +285,20 @@ input#menu-hamburguesa ~ ul{
 .servicios-card{
     height: 300px;
     min-width: 320px;
-    background-color: var(--gray);
+    background-color: var(--white);
     padding: 1.5rem 1rem;
     text-align: center;
+    border-radius: 5px;
+    background-image: url(../images/Vectores/Ellipse\ 14.svg) ;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.servicios-card>img{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .seccion3>h6{
@@ -301,10 +312,33 @@ input#menu-hamburguesa ~ ul{
 .servicios-card>h7{
     
     color: var(--black);
+    font-size: 18px;
+}
+.servicios-card>h8{
+    color: var(--black);
+    font-size: 18px;
+}
+.servicios-card>h9{
+    
+    color: var(--black);
+    font-size: 18px;
 }
 .servicios-card>p{
+    padding-top: 14px;
     color: var(--black);
+    font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
