@@ -116,18 +116,6 @@ input#menu-hamburguesa ~ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
 .experiencia{
     position: relative;
     display: flex;
@@ -216,6 +204,8 @@ input#menu-hamburguesa ~ ul{
     top: 12.5rem;
     left: 4rem;
 }
+
+
 
 
 
@@ -563,3 +553,387 @@ footer>h1{
         justify-content: flex-end;
     }
 }
+
+
+@media screen and ( min-width:600px ) {
+
+    
+ 
+   
+ 
+
+ .imagen-e >img{
+    
+    width: 300px;
+    z-index: 4;
+    top: 0.5rem;
+    left: 1.5rem;
+    
+    }
+ .imagen-e>h4{
+
+        width:400px;
+        height: 400px;
+        top: -22.8rem;
+        left: -1rem;
+    }
+
+ .header-presentacion{
+    z-index: 23;
+    left: 2rem;
+    top: -2rem;
+                   }   
+                 
+    .social-icon{
+        
+        width: 50px;
+        height: 50px;
+        top: 11rem;
+      
+        
+    }
+    .linkedin-icon{
+        margin-left: 20rem;
+    }
+    .ins-icon{
+        margin-left:29rem;
+    }
+    .twitter-icon{
+        margin-left: 38rem;
+    }
+
+    
+
+.trabajos-anteriores>h3{
+
+    width: 430px;
+    height: 90px;
+    border: 1px;
+    border-radius: 10px;
+    margin-left: -13rem;
+    top: 19rem;
+ 
+    }
+
+    .trabajos-anteriores{
+        position: absolute;
+    }
+
+.icons{
+    
+    border: 2px;
+    width: 100px;
+    height: 60px;
+    
+    
+}
+.google-icon{
+    top: 20rem;
+    left: -11rem;
+}
+.amazon-icon{
+    top: 20rem;
+    left: -2.5rem
+}
+.spotify-icon{
+    top: 20rem;
+    left: 6rem;
+}
+
+.acercademi{
+      width: 100%;
+      margin-left: 1rem;
+           
+}
+
+.acercademi>h5{
+    
+    top: -15rem;
+       
+}
+  
+.acercademi>p{ /*Ojo*/
+   
+    top: -7rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+}
+
+
+.seccion3{
+    padding: 1rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+  
+}
+
+.scroll-horizontal{
+    
+    gap: 2rem;
+  
+}
+
+.habilidad{
+ 
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+
+.contacto{
+
+    gap: 9rem;
+    align-items: center;
+}
+}
+
+
+
+
+
+@media screen and ( min-width:900px ) {
+
+    .experiencia{
+    
+        right: 4rem;
+        font-size: 22px;
+        top: -1rem;
+    }
+  
+
+ .imagen-e >img{
+    
+    width: 400px;
+
+    top: 0.5rem;
+    left: 1.5rem;
+    
+    }
+ .imagen-e>h4{
+
+        width:500px;
+        height: 500px;
+        top: -28.8rem;
+
+
+        left: -1rem;
+    }
+
+ .header-presentacion{
+    font-size: 32px;
+    left: 1rem;
+    top: 2rem;
+                   }   
+
+
+.header-presentacion >h1>span{
+    font-size: 70px;
+    
+    
+    padding-bottom: 1rem;
+}
+ .header-presentacion>p{
+    font-size: 20px;
+    top: 25rem;
+}
+              
+                
+    .social-icon{
+        
+        width: 60px;
+        height: 60px;
+        top: 11rem;
+      
+        
+    }
+    .linkedin-icon{
+        margin-left: 30rem;
+    }
+    .ins-icon{
+        margin-left:40rem;
+    }
+    .twitter-icon{
+        margin-left: 50rem;
+    }
+
+    
+
+.trabajos-anteriores>h3{
+
+    width: 530px;
+    height: 100px;
+    border: 1px;
+    border-radius: 10px;
+    margin-left: -16rem;
+    top: 25rem;
+ 
+    }
+
+    
+
+.icons{
+    
+    border: 2px;
+    width: 120px;
+    height: 70px;
+    
+    
+}
+.google-icon{
+    top: 26rem;
+    left: -13rem;
+}
+.amazon-icon{
+    top: 26rem;
+    left: -3rem
+}
+.spotify-icon{
+    top: 26rem;
+    left: 7rem;
+}
+
+.acercademi{
+      width: 100%;
+      margin-left: 1rem;
+           
+}
+
+.acercademi>h5{
+    
+    top: -20rem;
+       
+}
+  
+.acercademi>p{ /*Ojo*/
+   
+    top: -24rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    width: 500px;
+    height: 500px;
+}
+
+
+.contacto{
+    
+    gap: 20rem;
+    align-items: center;
+}
+}
+
+
+@media screen and ( min-width:1200px ) {
+
+.acercademi>p{
+    display: flex;
+    padding-top: 10rem;
+    font-size: 22px;
+}
+
+.experiencia{
+    
+    right: 7rem;
+    color: var(--cyan); 
+    font-size: 32px;
+    top: 2rem;
+}
+
+  
+
+    .imagen-e >img{
+       
+       width: 500px;
+       left: -4rem;
+         
+       }
+    .imagen-e>h4{
+   
+           width:600px;
+           height: 600px;
+           top: -34.8rem;
+           left: -7.5rem;
+
+   
+       }
+   
+    .header-presentacion{
+       font-size: 60px;
+       left: -3rem;
+       top: 2rem;
+                      }   
+   
+   
+   .header-presentacion >h1>span{
+       font-size: 150px;
+       border-bottom: transparent;
+       border-top: solid white;
+             
+   }
+    .header-presentacion>p{
+        display: flex;
+        position: relative;
+        padding-top: 23rem;
+       font-size: 32px;
+       top: -30rem;
+   }
+                 
+                   
+       .social-icon{
+           
+           width: 60px;
+           height: 60px;
+           top: 16rem;
+         
+           
+       }
+       .linkedin-icon{
+           margin-left: 40rem;
+       }
+       .ins-icon{
+           margin-left: 52rem;
+       }
+       .twitter-icon{
+           margin-left: 64rem;
+       }
+   
+       
+   .trabajos-anteriores>h3{
+   
+       width: 630px;
+       height: 120px;
+       border: 1px;
+       margin-left: -21rem;
+       top: 32rem;
+    
+       }
+   
+       
+   
+   .icons{
+       
+       width: 140px;
+       height: 80px;
+       
+       
+   }
+   .google-icon{
+       top: 33.3rem;
+       left: -18rem;
+   }
+   .amazon-icon{
+       top: 33.3rem;
+       left: -5rem;
+   }
+   .spotify-icon{
+       top: 33.3rem;
+       left: 7rem;
+   }
+   
+   
+   .contacto{
+       
+       gap: 30rem;
+       align-items: center;
+   }
+   }
+   
