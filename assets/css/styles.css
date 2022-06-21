@@ -165,20 +165,6 @@ input#menu-hamburguesa ~ ul{
 
 
 
-.Cv>h3{
-    background-color: gray;
-    width: 330px;
-    height: 50px;
-    border: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    z-index: 13;
-    position: absolute;
-    left: -25.5rem;
-    top: 14rem;
-}
 /*
 .buttonCurriculum{
     background-color: #34B0BE;
@@ -194,11 +180,28 @@ input#menu-hamburguesa ~ ul{
 }
 
 */
+
 .Cv{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
+}
+
+
+.Cv>h3{
+    background-color: gray;
+    width: 330px;
+    height: 50px;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 13;
+    position: absolute;
+    left: -10rem;
+    top: 14rem;
 }
 
 .buttonCurriculum{
@@ -207,7 +210,7 @@ input#menu-hamburguesa ~ ul{
     align-items: center;
     justify-content: center;
     position: absolute;
-    z-index: 20;
+    z-index: 25;
     
 }
 .botonCv{
@@ -227,9 +230,10 @@ input#menu-hamburguesa ~ ul{
 	text-transform: uppercase;
 	transition: .3s ease all;
 	border-radius: 5px;
-	position: relative;
+	position: absolute;
 	overflow: hidden;
-    left: -15rem;
+    top: 14.3rem;
+    left: 5rem;
 
 }
 
@@ -254,9 +258,7 @@ input#menu-hamburguesa ~ ul{
 	left: 0;
 }
 
-.botonCv{
 
-}
 
 
 
