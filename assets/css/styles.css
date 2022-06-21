@@ -165,49 +165,104 @@ input#menu-hamburguesa ~ ul{
 
 
 
-.trabajos-anteriores>h3{
+.Cv>h3{
     background-color: gray;
     width: 330px;
-    height: 80px;
+    height: 50px;
     border: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    position: absolute;
-    margin-left: -10rem;
     z-index: 13;
-    top: 12rem;
- 
-    }
-
-    .trabajos-anteriores{
-        position: absolute;
-    }
-
-.icons{
-    background-color: var(--gray);
     position: absolute;
-    border: 2px;
-    width: 80px;
+    left: -25.5rem;
+    top: 14rem;
+}
+/*
+.buttonCurriculum{
+    background-color: #34B0BE;
+    border-radius: 10% ;
+    width: 150px;
     height: 40px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 13rem;
+    top: 21.5rem;
     z-index: 14;
+    
+
 }
-.google-icon{
-    top: 13rem;
-    left: -8rem;
+
+*/
+.Cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
-.amazon-icon{
-    top: 13rem;
-    left: -2rem;
+
+.buttonCurriculum{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 20;
+    
 }
-.spotify-icon{
-    top: 13rem;
-    left: 4rem;
+.botonCv{
+    display: inline-flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+	width: 50%;
+	height: 40px;
+	background: rgba(50, 141, 22, 0.753);
+	color:var(--container-color);
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+    left: -15rem;
+
 }
+
+.botonCv span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+.botonCv::after {
+	content: "";
+	width: 100%;
+	position: absolute;
+	z-index: 16;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 80px solid rgba(0, 255, 255, 0.628);
+	border-right: 80px solid transparent;
+	transition: .4s ease-in-out all;
+}
+
+.botonCv:hover::after {
+	left: 0;
+}
+
+.botonCv{
+
+}
+
+
+
+
+
+ 
 
 
 
@@ -262,7 +317,7 @@ input#menu-hamburguesa ~ ul{
 
 
 .seccion3{
-    padding: 1rem;
+    padding-top: 10rem;
     padding-left: 2rem;
     padding-right: 2rem;
   
@@ -328,6 +383,7 @@ input#menu-hamburguesa ~ ul{
 
 
 .seccion4{
+    padding-top: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -406,12 +462,8 @@ progress::-moz-progress-bar{
     border-radius: 1rem;
 }
 
-
-
-
-
-
 .seccion4>h1{
+    padding-bottom: 2rem;
     color: var(--cyan);
     display: flex;
     justify-content: center;
